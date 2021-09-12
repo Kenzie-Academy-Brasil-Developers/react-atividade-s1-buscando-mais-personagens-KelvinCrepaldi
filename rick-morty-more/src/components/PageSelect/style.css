@@ -1,0 +1,59 @@
+.button-container {
+  width: 300px;
+
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.previous-page {
+  background-image: url(./button2.jpg);
+  background-size: 100%;
+  width: 190px;
+  height: 70px;
+  border: none;
+  border-radius: 20px;
+  margin: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.previous-page:hover {
+  box-shadow: 0px 0px 5px 2px #fff;
+}
+
+.next-page {
+  cursor: pointer;
+  background-image: url(./button1.jpg);
+  background-size: 100%;
+  width: 190px;
+  height: 70px;
+  border: none;
+  border-radius: 20px;
+  margin: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.next-page:hover {
+  box-shadow: 0px 0px 5px 2px #fff;
+}
+
+@media screen and (min-width: 729px) {
+  .button-container {
+    width: auto;
+  }
+
+  .previous-page {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+  }
+
+  .next-page {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }
+}
