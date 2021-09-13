@@ -16,10 +16,16 @@ function App() {
 
   const pageNext = () => {
     page < 15 && setPage(page + 1);
+    scrollToTop();
   };
 
   const pagePrevious = () => {
     page > 1 && setPage(page - 1);
+    scrollToTop();
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
   };
 
   return (
