@@ -20,7 +20,8 @@
 }
 
 .previous-page:hover {
-  box-shadow: 0px 0px 5px 2px #fff;
+  border-color: rgb(255, 237, 70);
+  box-shadow: 0px 0px 5px 2px rgb(255, 237, 70);
 }
 
 .next-page {
@@ -37,7 +38,8 @@
 }
 
 .next-page:hover {
-  box-shadow: 0px 0px 5px 2px #fff;
+  border-color: rgb(78, 11, 133);
+  box-shadow: 0px 0px 5px 2px rgb(78, 11, 133);
 }
 
 @media screen and (min-width: 729px) {
